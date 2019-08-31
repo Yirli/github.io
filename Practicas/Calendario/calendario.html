@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<title>Calendario</title>
+		<link rel="stylesheet" type="text/css" href="style/calendar.css" media="all">
+		<script  type="text/javascript" src="scripts/calendario.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>Mi Calendario</h1>
+		
+
+		<div>
+			<nav class="topnav">
+				
+					<a href ="../../profileYirlania.html"><h2 class="topnav">Datos Personales</h2></a>
+					<a href ="../../Practicas.html"><h2>Prácticas de Clase</h2></a>
+					<a href="../../Tareas.html"><h2>Enlaces a Tareas</h2></a>
+					<a href="../../Laboratorios.html"><h2>Enlaces a Laboratorios</h2></a>
+						
+			</nav>
+			<br/>
+			<br/>
+		</div>
+
+		<div class="center" id="calendario">
+			
+			<div class="wrapper">
+				<div class="letter first" id="anterior" onclick="mesantes()"></div>
+				<h3  class="second" id="titulos"></h3>
+				<div class="letter third" id="posterior" onclick="mesdespues()"></div>
+			</div>
+
+			<table align="center" class="letter borders" id="diasc">
+				<tr id="fila0"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+				<tr id="fila1"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr id="fila2"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr id="fila3"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr id="fila4"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr id="fila5"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr id="fila6"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			</table>
+			<br/>
+			<div class="letter" id="fechaactual" ><a onclick="actualizar()">Hoy: </a></div>
+			<br/>
+			<div id="buscafecha">
+				<form action="#" name="buscar">
+					<p>Buscar:   Mes
+						<select class="letter" name="buscames">
+							<option value="0">Enero</option>
+							<option value="1">Febrero</option>
+							<option value="2">Marzo</option>
+							<option value="3">Abril</option>
+							<option value="4">Mayo</option>
+							<option value="5">Junio</option>
+							<option value="6">Julio</option>
+							<option value="7">Agosto</option>
+							<option value="8">Setiembre</option>
+							<option value="9">Octubre</option>
+							<option value="10">Noviembre</option>
+							<option value="11">Diciembre</option>
+						</select>
+						      Año    
+						 <input class="letter" type="text" name="buscaanno" maxlength="4" size="4"/>
+						   
+						 <input class = "letter textsize" type="button" value="Buscar" onclick="mifecha()">
+					</p>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
