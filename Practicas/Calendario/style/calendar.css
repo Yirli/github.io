@@ -1,0 +1,119 @@
+h1{
+
+	font-family: 'Satisfy', cursive;
+  font-size: 3vw;
+	text-align: center;
+  color: #132743;
+}
+
+
+h3,a,p, .letter, option{
+  font-family: 'Cabin Condensed', sans-serif;
+  color: #132743;
+}
+
+
+h4{
+  font-size: 3vw;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  color: #132743;
+}
+
+h5{
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  color: #132743;
+}
+
+h2{
+   font-family: 'Poiret One', cursive;
+   font-size: 2vw;
+   color: #132743;
+}
+
+.center{
+  text-align: center;
+}
+
+.textsize{
+  font-size: 2vw;
+}
+
+.wrapper{
+    height: 35px;
+    margin-bottom: 30px;
+
+    margin: auto;
+    width: 35%;
+    //border: 3px solid green;
+    padding: 10px;
+    //text-align: center;
+
+
+}
+
+.first {
+  float: left;
+  width: 30%;
+  //border: 3px solid #73AD21;
+  margin: 0;
+
+}
+
+.second{
+  float: left;
+  width: 33%;
+  //border: 3px solid #73AD21;
+  margin: 0;
+
+}
+
+
+.third {
+  float: left;
+  width: 30%;
+  //border: 3px solid #73AD21;
+  margin: 0;
+
+}
+
+.backgroundImage{
+  background-image: url("../images/bck2.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+
+}
+
+
+.borders{
+  border: 2px solid #808080;
+}
+
+.topnav {
+  background-color: #dda7b9; 
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
